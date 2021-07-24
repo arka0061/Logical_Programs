@@ -15,6 +15,12 @@ namespace Logical_Programs
             Console.WriteLine("Press 4 for Reversing a Number");
             Console.WriteLine("Press 5 for Coupon Numbers!");
             Console.WriteLine("Press 6 for Stop_Watch!");
+            Console.WriteLine("Press 7 for Temparature Conversion!");
+            Console.WriteLine("Press 8 for Day Of Week!");
+            Console.WriteLine("Press 9 for Vending Machine!");
+            Console.WriteLine("Press 10 for Monthly_Payemnt!");
+
+
             Console.WriteLine("----------------------------------------------------------------------------------------");         
             while (choice != 11)
             {
@@ -54,6 +60,30 @@ namespace Logical_Programs
                         Console.WriteLine("Stop_Watch");
                         Stop_Watch t = new Stop_Watch();
                         Stop_Watch.stop_Watch();
+                        break;
+
+                    case 7:
+                        Console.WriteLine("Temparature_Conversion");
+                        Temparature_Conversion tem = new Temparature_Conversion();
+                        Temparature_Conversion.temp();
+                        break;
+
+                    case 8:
+                        Console.WriteLine("Day _Of_Week");
+                        Day_Of_Week d = new Day_Of_Week();
+                        Day_Of_Week.day_Of_Week();
+                        break;
+
+                    case 9:
+                        Console.WriteLine("Vending_Machine");
+                        Vending_Machine v = new Vending_Machine();
+                        Vending_Machine.vending();
+                        break;
+
+                    case 10:
+                        Console.WriteLine("Monthly_Payment");
+                        Monthly_Payment m = new Monthly_Payment();
+                        Monthly_Payment.monthly_payment();
                         break;
 
                     default:
