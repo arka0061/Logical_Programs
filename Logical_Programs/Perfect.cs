@@ -19,12 +19,12 @@ public class Perfect
         if (sum == number_original)
         {
             Console.WriteLine("The number is a"+" "+ number+" "+"is a perfect number :");
-            Console.ReadLine();
+            
         }
         else
         {
             Console.WriteLine("The number is a" + " " + number +" "+"is not a perfect number :");
-            Console.ReadLine();
+          
         }
     }
 }
