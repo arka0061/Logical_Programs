@@ -8,7 +8,7 @@ namespace Logical_Programs
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Press 1 to 10 to run the Following programs and press 11 to exit!");
+            Console.WriteLine("Press 1 to 12to run the Following programs and press 0 to exit!");
             Console.WriteLine("Press 1 for Fibonacci!");
             Console.WriteLine("Press 2 for Perfect Number!");
             Console.WriteLine("Press 3 for Prime or not!");
@@ -19,10 +19,12 @@ namespace Logical_Programs
             Console.WriteLine("Press 8 for Day Of Week!");
             Console.WriteLine("Press 9 for Vending Machine!");
             Console.WriteLine("Press 10 for Monthly_Payemnt!");
+            Console.WriteLine("Press 11 for Decimel to binary!");
+            Console.WriteLine("Press 12 for sqrt using Newton's method!");
 
 
             Console.WriteLine("----------------------------------------------------------------------------------------");         
-            while (choice != 11)
+            while (choice != 15)
             {
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -86,6 +88,17 @@ namespace Logical_Programs
                         Monthly_Payment.monthly_payment();
                         break;
 
+                    case 11:
+                        Console.WriteLine("Decimel_to_Binary");
+                        Decimel_To_Binary dec = new Decimel_To_Binary();
+                        Decimel_To_Binary.decimel_to_binary();
+                        break;
+
+                    case 12:
+                        Console.WriteLine("Newtons_Method");
+                        Newton_Method newton = new Newton_Method();
+                        Newton_Method.newton_method();
+                        break;
                     default:
                         Console.WriteLine("Thank you!");
                         break;
