@@ -8,7 +8,7 @@ namespace Logical_Programs
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Press 1 to 12to run the Following programs and press 0 to exit!");
+            Console.WriteLine("Press 1 to 12 to run the Following programs and press 15 to exit!");
             Console.WriteLine("Press 1 for Fibonacci!");
             Console.WriteLine("Press 2 for Perfect Number!");
             Console.WriteLine("Press 3 for Prime or not!");
