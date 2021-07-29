@@ -21,6 +21,7 @@ namespace Logical_Programs
             Console.WriteLine("Press 10 for Monthly_Payemnt!");
             Console.WriteLine("Press 11 for Decimel to binary!");
             Console.WriteLine("Press 12 for sqrt using Newton's method!");
+            Console.WriteLine("Press 13 for Swap Nibbles!");
 
 
             Console.WriteLine("----------------------------------------------------------------------------------------");         
@@ -99,6 +100,13 @@ namespace Logical_Programs
                         Newton_Method newton = new Newton_Method();
                         Newton_Method.newton_method();
                         break;
+
+                    case 13:
+                        Console.WriteLine("Swap_Nibble");
+                        Swap_Nibble s = new Swap_Nibble();
+                        Swap_Nibble.Nibble();
+                        break;
+
                     default:
                         Console.WriteLine("Thank you!");
                         break;
